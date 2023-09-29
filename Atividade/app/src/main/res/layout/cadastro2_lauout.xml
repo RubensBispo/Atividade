@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="-330dp">
+            android:layout_marginTop="-250dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_marginRight="30dp"
@@ -30,8 +30,23 @@
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 />
-
         </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text=" User Name / E-mail address"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="    "
+        android:textColorHint="@color/white" />
 
 
     </LinearLayout>
