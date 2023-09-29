@@ -18,7 +18,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="-200dp">
+                    android:layout_marginTop="-160dp">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_marginRight="30dp"
@@ -82,6 +82,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Creaste a new account"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign In"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"/>
 
